@@ -9,7 +9,7 @@ openssl req \
     -x509 \
     -subj "/C=TC/ST=Everywhere/L=Internet/O=Development/CN=localhost" \
     -keyout server.key \
-    -out server.cert
+    -out server.crt
 
 service apache2 start
 tail -f /var/log/apache2/*
