@@ -1,4 +1,4 @@
-Debian Apache2 image with SSL support (self signed certificate created on startup), mod_rewrite and mod_proxy.
+Debian Apache2 image with SSL support (self signed certificate created on startup), mod_rewrite and mod_proxy. This build is as provided by the debian repositories for the current latest stable version of Debian.
 
 **Development only, not suitable for production environments.**
 
