@@ -14,9 +14,4 @@ RUN a2ensite default-ssl
 EXPOSE 80
 EXPOSE 443
 
-VOLUME /etc/apache2/
-VOLUME /var/www/html/
-VOLUME /etc/apache2/sites-enabled/
-VOLUME /etc/apache2/conf-enabled/
-
 CMD ["/startup.sh"]
